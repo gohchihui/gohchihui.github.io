@@ -159,9 +159,7 @@ input[type=text], select {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .box{
-        flex-wrap: wrap;
-    }
+    
     .row{
         flex-wrap: wrap;
     }
