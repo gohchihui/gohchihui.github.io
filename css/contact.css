@@ -170,7 +170,6 @@ input[type=text], select {
     .row{
         display: flex;
         flex-wrap: wrap;
-        margin-left: -15px;
     }
     .col1{
         position: relative;
