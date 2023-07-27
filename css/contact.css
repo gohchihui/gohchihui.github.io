@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+#big{
+    background-color: #FFFFFF;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    background-color: #b0a4a480;
+    padding: 14px 16px;
+    justify-content: space-between;
+    position: fixed;
+    width: 98%;
+    flex-wrap: wrap;
+}
+.nav div a{
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+.nav a:hover{
+    background-color: wheat;
+    color: #000;
+}
+.container{
+    text-align: center;
+}
+.heading{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b1{
+    background: #b0a4a480;
+    width: 33.33%;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    font-family: 'Lato';
+    font-size: 16px;
+}
+.small{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    background-color: #b0a4a42b;
+}
+.text p{
+    background-color: #b0a4a473;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    background: #1f1be7;
+    color: #FFFFFF;
+    border: 1px solid #1f1be7;
+    border-radius: 15px;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    background: #b0a4a480;
+}
+.col1{
+    margin-right: 100px;
+}
+.iconbox{
+    margin: 10px;
+    padding: 10px;
+}
+.icon2{
+    padding-top: 2px;
+    margin-top: 10px;
+}
+.icon2 span{
+    vertical-align: top;
+}
+.next a{
+    color: #000;
+    text-decoration: none;
+}
+
+@media screen and (max-width:480px) {
+    .small{
+        flex-wrap: wrap;
+    }
+    .nav{
+        width: auto;
+    }
+    .photo img{
+        height: 300px;
+    }
+    .text{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .b1 p{
+        font-size: 13px;
+    }
+    .footer{
+        padding-left: 15px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .col1{
+        position: relative;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .iconbox{
+        margin: 0;
+        padding: 0;
+    }
+}

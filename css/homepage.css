@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 14px;
+}
+#big{
+    background-color: #FFFFFF;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    background-color: #b0a4a480;
+    padding: 14px 16px;
+    justify-content: space-between;
+    position: fixed;
+    width: 98%;
+    flex-wrap: wrap;
+}
+.nav div a{
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+.nav a:hover{
+    background-color: wheat;
+    color: #000;
+}
+
+.container{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+p{
+    color: #1F1BE7;
+    font-size: 24px;
+}
+.one{
+    color: #1F1BE7;
+    font-size: 40px;
+
+}
+
+@media screen and(max-width:480px) {
+
+    .others{
+        flex-flow: column wrap;
+
+    }
+}
