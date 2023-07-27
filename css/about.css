@@ -93,13 +93,43 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 50px;
 }
 .icon2{
     padding: 10px;
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    background: #b0a4a480;
+}
+
+.iconbox{
+    margin: 10px;
+    padding: 10px;
+}
+.icon3{
+    padding-top: 2px;
+    margin-top: 10px;
+}
+.icon3 a{
+    vertical-align: top;
+    text-decoration: none;
+    color: #000;
+}
+.next1 a{
+    color: #000;
+    text-decoration: none;
+}
+.col2 p{
+    font-size: 16px;
+    font-family: 'Lato';
+}
+.next1 p{
+    font-size: 16px;
+    font-family: 'Lato';
 }
 
 @media screen and (max-width:480px) {
@@ -129,6 +159,25 @@ h1{
     .header{
         text-align: center;
         flex: auto;
+    }
+    .footer{
+        padding-left: 15px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .col1{
+        position: relative;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .iconbox{
+        margin: 0;
+        padding: 0;
     }
     
 }
