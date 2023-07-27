@@ -50,6 +50,8 @@ p{
 .small{
     display: flex;
     justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 input[type=text], select {
@@ -151,6 +153,7 @@ input[type=text], select {
 @media screen and (max-width:480px) {
     .small{
         flex-wrap: wrap;
+        margin: 0;
     }
     .nav{
         width: auto;
@@ -189,6 +192,7 @@ input[type=text], select {
 @media screen and (max-width:700px){
     .small{
         flex-wrap: wrap;
+        margin: 0;
     }
     .photo img{
         height: 300px;
