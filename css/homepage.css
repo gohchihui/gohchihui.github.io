@@ -3,7 +3,7 @@ body{
     background-color: #FFFFFF;
     font-family: 'Lato';
     font-size: 14px;
-    background-image: url("C:/Users/User/Downloads/assignment/img/backgrd4.jpg");
+    background-image: url("/img/backgrd4.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
@@ -58,5 +58,5 @@ p{
         text-align: center;
         flex: auto;
     }
-    
+
 }
