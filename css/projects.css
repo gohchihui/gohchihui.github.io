@@ -112,4 +112,8 @@ h5{
     .small1 img{
         width: 300px;
     }
+    .header{
+        text-align: center;
+        flex: auto;
+    }
 }

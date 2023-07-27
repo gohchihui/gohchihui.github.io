@@ -124,6 +124,10 @@ h1{
     .ans{
         font-size: 15px;
     }
+    .header{
+        text-align: center;
+        flex: auto;
+    }
     
 }
 

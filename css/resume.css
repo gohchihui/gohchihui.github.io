@@ -210,4 +210,8 @@ ul{
         margin-right: 10px;
         align-items: center;
     }
+    .header{
+        text-align: center;
+        flex: auto;
+    }
 }
