@@ -64,6 +64,11 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .text a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
 .heading{
     padding-top: 50px;
     padding-bottom: 10px;
