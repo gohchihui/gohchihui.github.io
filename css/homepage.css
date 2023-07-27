@@ -10,7 +10,7 @@ body{
 }
 .nav{
     display: flex;
-    background-color: #b0a4a480;
+    background-color: #B0A4A4;
     padding: 14px 16px;
     justify-content: space-between;
     position: fixed;

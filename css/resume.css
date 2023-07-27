@@ -12,7 +12,7 @@ body{
 }
 .nav{
     display: flex;
-    background-color: #b0a4a480;
+    background-color: #B0A4A4;
     padding: 14px 16px;
     justify-content: space-between;
     position: fixed;
@@ -47,7 +47,7 @@ body{
 }
 .row{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 .boxpage1{
     display: flex;
@@ -57,7 +57,7 @@ body{
 }
 #page3{
     margin-top: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .sbox{
     margin-right: 10px;
@@ -71,7 +71,7 @@ body{
     margin-top: 70px;
     position: relative;
     width: 100%;
-    flex: 0 0 25%;
+    max-width: 15%;
 }
 .snav{
     position: sticky;
@@ -181,12 +181,6 @@ ul{
 }
 
 @media screen and(max-width:480px) {
-    .row{
-        display: flex;
-        margin-left: -15px;
-        margin-right: -15px;
-        flex-wrap: wrap;
-    }
     .box1{
         position: relative;
         width: 100%;
@@ -198,5 +192,20 @@ ul{
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .small{
+        max-width: 100%;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    .Bbox{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 35px;
+        justify-content: center;
+        margin-right: -15px;
+        align-items: center;
     }
 }
