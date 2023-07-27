@@ -43,12 +43,6 @@ body{
     justify-content: space-evenly;
 }
 
-.b1{
-    background: #b0a4a480;
-    width: 33.33%;
-    margin: 10px;
-    padding: 10px;
-}
 p{
     font-family: 'Lato';
     font-size: 16px;
@@ -57,29 +51,38 @@ p{
     display: flex;
     justify-content: center;
 }
-.text{
-    text-align: center;
-    padding: 10px;
-    width: 50%;
-    background-color: #b0a4a42b;
-}
-.text p{
-    background-color: #b0a4a473;
-    border-radius: 10px;
-    padding: 5px;
-}
-.b1 a{
-    text-decoration: none;
-    color: #000;
-}
-button{
-    background: #1f1be7;
-    color: #FFFFFF;
-    border: 1px solid #1f1be7;
-    border-radius: 15px;
-    padding: 10px;
-    align-items: center;
-}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #B0A4A4;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: lightgrey;
+  }
+  
+  .text {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
 .icon{
     display: flex;
     justify-content: space-evenly;

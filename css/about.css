@@ -50,12 +50,14 @@ body{
 .box p{
     margin: 10px;
     padding: 10px;
+    line-height: 1.8;
 }
 h1{
     font-family: 'Lato';
     font-size: 50px;
     margin: 10px;
     padding: 10px;
+    margin-top: 100px;
 }
 
 .write{
@@ -124,28 +126,4 @@ h1{
     }
     
 }
-@media screen and (max-width:900px) {
-    .text{
-        flex-wrap: wrap;
-    }
-    h1{
-        margin-top: 100px;
-        text-align: center;
-    }
-    .icon{
-        flex-wrap: wrap;
-    }
-    .small{
-        flex-direction: column;
-    }
-    .photo{
-        width: auto;
-        height: auto;
-    }
-    .write{
-        font-size: 15px;
-    }
-    .ans{
-        font-size: 15px;
-    }
-}
+
