@@ -42,6 +42,7 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+
 .b1{
     background: #b0a4a480;
     width: 33.33%;
@@ -111,6 +112,39 @@ button{
 }
 #message{
     padding-bottom: 100px;
+}
+.box{
+    display: flex;
+    width: 100%;
+}
+.write{
+    font-family: 'Lato';
+    font-size: 24px;
+    padding-left: 30px;
+}
+.ans{
+    font-family: 'Lato';
+    font-size: 24px;
+    color: #B0A4A4;
+    padding-left: 20px;
+}
+.write p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ans p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ans a{
+    text-decoration: none;
+    color: #B0A4A4;
+    font-size: 20px;
+}
+
+.box1{
+    display: flex;
+    width: 100%;
 }
 @media screen and (max-width:480px) {
     .small{

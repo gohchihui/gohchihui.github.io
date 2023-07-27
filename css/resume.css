@@ -38,7 +38,7 @@ body{
     text-decoration: none;
 }
 .snav a:hover{
-    color: #1f1be7;
+    color: #3F2305;
     font-size: 20px;
     position: relative;
 }
@@ -48,7 +48,7 @@ body{
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
+    padding: 10px;
 }
 .boxpage1{
     display: flex;
@@ -80,12 +80,12 @@ body{
 }
 
 .heading{
-    color: #1f1be7;
+    color: #3F2305;
     font-size: 30px;
     padding-top: 60px;
 }
 .text{
-    color: #1f1be7;
+    color: #3F2305;
     font-weight: 700;
     font-size: 16px;
 }
@@ -114,6 +114,7 @@ ul{
     margin-top: 0;
     margin-bottom: 16px;
     line-height: 1.8;
+    padding: 0;
 }
 .small{
     max-width: 45%;
@@ -191,7 +192,7 @@ ul{
     .box2{
         position: relative;
         width: 100%;
-        padding-left: 15px;
+        padding-left: 50px;
         padding-right: 15px;
     }
     .small{
@@ -204,9 +205,9 @@ ul{
     .Bbox{
         display: flex;
         flex-wrap: wrap;
-        margin-left: 35px;
+        margin-left: 10px;
         justify-content: center;
-        margin-right: -15px;
+        margin-right: 10px;
         align-items: center;
     }
 }

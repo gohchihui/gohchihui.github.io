@@ -67,9 +67,7 @@ h3{
     font-weight: 400;
     margin: 10px;
 }
-.small div:hover{
-    background-color: #3e64ff;
-}
+
 .box12{
     justify-content: center;
     display: flex;
