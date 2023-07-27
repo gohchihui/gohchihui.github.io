@@ -156,6 +156,9 @@ h1{
     .ans{
         font-size: 15px;
     }
+    .nav{
+        width: auto;
+    }
     .header{
         text-align: center;
         flex: auto;
