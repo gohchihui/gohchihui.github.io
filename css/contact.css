@@ -40,7 +40,7 @@ body{
 }
 .box{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 p{
@@ -121,11 +121,14 @@ input[type=text], select {
 .write{
     font-family: 'Lato';
     font-size: 24px;
+    text-align: left;
 }
 .ans{
     font-family: 'Lato';
     font-size: 24px;
     color: #B0A4A4;
+    padding-left: 10px;
+    text-align: left;
 }
 .write p{
     margin-bottom: 20px;
