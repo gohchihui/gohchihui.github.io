@@ -181,7 +181,7 @@ ul{
     color: #000;
 }
 
-@media screen and(max-width:480px) {
+@media screen and (max-width:700px) {
     .box1{
         position: relative;
         width: 100%;
